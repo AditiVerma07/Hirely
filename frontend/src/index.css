@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+.brand-logo {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.recharts-wrapper *:focus {
+  outline: none;
+}

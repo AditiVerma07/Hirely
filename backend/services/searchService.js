@@ -5,7 +5,7 @@ const TAVILY_URL = 'https://api.tavily.com/search';
  * Unlike asking an LLM to "suggest" links, this hits an actual search engine,
  * so every URL returned genuinely exists and resolves.
  */
-async function fetchTopicResources(topicTitle, maxResults = 3) {
+async function fetchTopicResources(topicTitle, maxResults = 6) {
   const response = await fetch(TAVILY_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

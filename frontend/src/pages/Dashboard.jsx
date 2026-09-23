@@ -9,7 +9,7 @@ import NewApplicationForm from '../components/NewApplicationForm';
 
 const STATUS_META = {
   offer: { label: 'Offer', dot: '#059669' },
-  interviewing: { label: 'Interviewing', dot: '#D97706' },
+  interview: { label: 'Interviewing', dot: '#D97706' },
   oa: { label: 'OA / Test', dot: '#2563EB' },
   applied: { label: 'Applied', dot: '#6B7280' },
   rejected: { label: 'Rejected', dot: '#DC2626' },
